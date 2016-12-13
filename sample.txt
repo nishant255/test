@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Here's my first branch
-=======
-This is beast›:
->>>>>>> add_css
