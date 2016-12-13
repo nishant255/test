@@ -1,0 +1,157 @@
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd test
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ touch index.html
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ touch style.css
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ cd ..
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ mkdir destination
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ mv index_2 ~/Desktop/test ~/Desktop/destination
+mv: cannot stat 'index_2': No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ mv index_2.html ~/Desktop/test ~/Desktop/destination
+mv: cannot stat 'index_2.html': No such file or directory
+mv: cannot stat '/c/Users/Nishant/Desktop/test': No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd test
+bash: cd: test: No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ls
+Atom.lnk*  'Eclipse Jee Latest Released.lnk'*  'SQL Developer.lnk'*  WhatsApp.lnk*  desktop.ini  destination/  '~Backup 12-17-12.pst.tmp'
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd..
+bash: cd..: command not found
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd ..
+
+Nishant@Nishant MINGW64 ~
+$ ls
+'3D Objects'/        Dropbox/                NTUSER.DAT                                                                                    PrintHood@      Videos/             ntuser.ini
+AppData/             Favorites/              NTUSER.DAT{f90b975b-a0ca-11e6-930a-a101bd683d95}.TM.blf                                       Recent@         'VirtualBox VMs'/   workspace_c/
+'Application Data'@  Intel/                  NTUSER.DAT{f90b975b-a0ca-11e6-930a-a101bd683d95}.TMContainer00000000000000000001.regtrans-ms  Roaming/        _netrc              workspace_java/
+Contacts/            IntelGraphicsProfiles/  NTUSER.DAT{f90b975b-a0ca-11e6-930a-a101bd683d95}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/  eclipse/
+Cookies@             Links/                  NetHood@                                                                                      Searches/       eclipse-installer/
+Desktop/             'Local Settings'@       OneDrive/                                                                                     SendTo@         iCloudDrive/
+Documents/           Music/                  Oracle/                                                                                       'Start Menu'@   ntuser.dat.LOG1
+Downloads/           'My Documents'@         Pictures/                                                                                     Templates@      ntuser.dat.LOG2
+
+Nishant@Nishant MINGW64 ~
+$ cd Desktop
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd test
+bash: cd: test: No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd Test
+bash: cd: Test: No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ls
+Atom.lnk*  'Eclipse Jee Latest Released.lnk'*  'SQL Developer.lnk'*  WhatsApp.lnk*  desktop.ini  destination/  '~Backup 12-17-12.pst.tmp'
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd test
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ mv index.html ~/Desktop/test
+mv: 'index.html' and '/c/Users/Nishant/Desktop/test/index.html' are the same file
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ mv index_2.html ~/Desktop/test ~/Desktop/destination
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ ls
+ls: cannot open directory '.': No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ ls
+ls: cannot open directory '.': No such file or directory
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ cd ..
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ls
+Atom.lnk*  'Eclipse Jee Latest Released.lnk'*  'SQL Developer.lnk'*  WhatsApp.lnk*  desktop.ini  destination/  '~Backup 12-17-12.pst.tmp'
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ pwd
+/c/Users/Nishant/Desktop
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd test
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ mv index_2.html ~/Desktop/destination
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ rm style.css
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+Nishant@Nishant MINGW64 ~/Desktop/test
+$ cd ..
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ~/Desktop/destination
+bash: /c/Users/Nishant/Desktop/destination: Is a directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ls
+Atom.lnk*  'Eclipse Jee Latest Released.lnk'*  'SQL Developer.lnk'*  WhatsApp.lnk*  desktop.ini  destination/  test/  '~Backup 12-17-12.pst.tmp'
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ~/Desktop/destination/
+bash: /c/Users/Nishant/Desktop/destination/: Is a directory
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ cd ~/Desktop/destination/
+
+Nishant@Nishant MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+Nishant@Nishant MINGW64 ~/Desktop/destination
+$ cd ..
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ rmdir destination
+rmdir: failed to remove 'destination': Directory not empty
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ rmdir -r destination
+rmdir: unknown option -- r
+Try 'rmdir --help' for more information.
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ rm -r destination
+
+Nishant@Nishant MINGW64 ~/Desktop
+$ ls
+Atom.lnk*  'Eclipse Jee Latest Released.lnk'*  'SQL Developer.lnk'*  WhatsApp.lnk*  desktop.ini  test/  '~Backup 12-17-12.pst.tmp'
+
+Nishant@Nishant MINGW64 ~/Desktop
+$
